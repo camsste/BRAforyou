@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Ajuste a altura conforme necessário */
+    background-color: #f8f9fa; /* Ajuste a cor de fundo conforme necessário */
+}
+
+.logo {
+    max-height: 150%; /* Ajuste o tamanho da imagem conforme necessário */
+}
+
+h1, h2, h3, p {
+    margin: 0.5em 0;
+}
+
+nav {
+    background-color: #ffdf00; 
+    width: 100%;
+    padding: 0.5em 0;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffffff; 
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 10px auto; /* centraliza horizontalmente e adiciona margem inferior */
+    padding: 10px; 
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%; 
+    max-width: 600px; 
+}
+
+.estado, .ong {
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #002776; 
+    color: white;
+    position: fixed;
+    height: 5%;
+    width: 100%;
+    bottom: 0;
+}
+
+.black-text {
+    color: #000;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p, li {
+    font-size: 1.2em;
+}
+
+.imagem {
+  width: 35%; 
+  height: auto; 
+  border-radius: 8px;
+}
+
+/* Novo CSS para a seção Sobre as Criadoras */
+.sobre-criadoras {
+    text-align: center;
+    padding: 20px;
+}
+
+.profiles {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Espaço entre as fotos */
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    width: 150px; /* Ajuste o tamanho conforme necessário */
+    height: 150px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 50%; /* Borda arredondada */
+    object-fit: cover; /* Mantém a proporção da imagem */
+}
+
+.profile p {
+    margin-top: 10px;
+    font-size: 1.2em; /* Ajuste conforme necessário */
+    color: #000000; /* Ajuste conforme necessário */
+}
+
+.ong a {
+    color: inherit; /* Mantém a cor do texto original */
+}
